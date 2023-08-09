@@ -2,7 +2,6 @@ import sys
 INF = sys.maxsize
 
 n = int(sys.stdin.readline().strip())
-
 graph = [0 for _ in range(n)]
 
 for i in range(n):
