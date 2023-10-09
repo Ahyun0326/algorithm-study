@@ -8,8 +8,8 @@ def dfs(curr):
 
     if visited[next]:
         if not finished[next]:
-            for i in range(next, next!=curr):
-                next = student[i]
+            while(next!=curr):
+                next = student[next]
                 cnt += 1
             cnt += 1                    
     else:
