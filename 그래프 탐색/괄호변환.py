@@ -2,7 +2,7 @@ import sys
 sys.setrecursionlimit(10**6)
 
 # 올바른 괄호 문자열인지 검사하는 함수
-def check(u):
+def check(u): 
     
     stack = []
     
