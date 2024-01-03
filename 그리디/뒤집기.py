@@ -12,7 +12,7 @@ for i in range(0, len(s)):
     # 현재 문자가 1이고, 이전 문자가 0이면
     elif s[i] == 1 and s[i-1] == 0:
         zero_cnt += 1 # zero_cnt 증가
-
+ 
 # 연속된 1의 개수 개산
 one_cnt = total - zero_cnt
 
