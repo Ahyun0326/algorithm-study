@@ -1,4 +1,3 @@
-
 def solution(s):
     
     # 자를 문자열의 길이
