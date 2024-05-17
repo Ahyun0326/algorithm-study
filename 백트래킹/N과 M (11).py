@@ -12,6 +12,7 @@ def dfs(data):
         data.pop()
 
 n, m = map(int, input().split())
+
 array = sorted(set(list(map(int, input().split()))))
 data = []
 dfs(data)
