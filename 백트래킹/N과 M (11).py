@@ -14,5 +14,4 @@ def dfs(data):
 n, m = map(int, input().split())
 array = sorted(set(list(map(int, input().split()))))
 data = []
-
 dfs(data)
