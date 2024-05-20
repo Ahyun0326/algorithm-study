@@ -41,6 +41,7 @@ for i in range(m):
             cnt = 0
             dfs(j, i)
             result.append(cnt)
+            
 result.sort()
 print(len(result))
 print(*result)
