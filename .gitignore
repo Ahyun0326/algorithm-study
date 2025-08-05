@@ -9,3 +9,5 @@
 
 .idea
 Algorithm_study.iml
+/out
+.DS_Store
